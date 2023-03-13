@@ -1,14 +1,13 @@
 # MediaChat
 
-MediaChat is a Kodi addon that allows you to chat with ChatGPT API. It lets you enter prompts and receive responses related to a movie.
+MediaChat is a Kodi addon that allows you to chat with ChatGPT API. It lets you enter prompts and receive responses related to a movie or TV Show.
 
 ## Features
 
-- Context menu integration to send movie details to addon
-- On-screen keyboard with autofill option
-- Responses are cached for faster retrieval
-- English language file with msgctxt ids
-- Settings to set the ChatGPT API key
+- Context menu integration to send movie and tv show details to addon
+- On-screen keyboard with caching of prompt for quick re-use with other media
+- English language file only (currently)
+- Settings to set the ChatGPT API key, and adjust Max Tokens and Temprature
 
 ## Requirements
 
@@ -17,28 +16,38 @@ MediaChat is a Kodi addon that allows you to chat with ChatGPT API. It lets you 
 
 ## Installation
 
-1. Download the `mediachat.zip` file from the latest release on the [releases page](https://github.com/username/mediachat/releases).
+1. Add my repository (will then get updates):
+(Kodi File Manager Source)
+https://kcook98765.github.io/repository.kcook98765/
+2. Install the addon from my now installed repository
+
+OR
+
+1. Download the .zip file from https://github.com/kcook98765/script.mediachat
 2. Launch Kodi and navigate to "Add-ons".
-3. Select "Install from zip file" and navigate to the downloaded `mediachat.zip` file.
+3. Select "Install from zip file" and navigate to the downloaded file.
 4. Wait for the addon installation notification to appear.
+5. You will need to do this again when newer versions are available.
 
 ## Usage
 
-1. Select a movie in Kodi's library.
+1. Select a movie or TV Show in Kodi's library.
 2. Open the context menu by right-clicking or pressing `c` on your keyboard.
 3. Select the "MediaChat" option.
-4. Enter a prompt in the on-screen keyboard and press "Submit".
+4. Select an entry for immediate use, or select "Type in a new entry..." to get a keyboard to enter a new query
 5. Wait for the response to be generated and displayed on the screen.
+
 
 ## Settings
 
 - API key: Enter your ChatGPT API key here.
+- Max Tokens
+- Temprature
 
 ## Credits
 
-- Developed by Your Name
+- Developed by Kyle Cook
 - Uses the ChatGPT API (https://api.chatgpt.com/)
-- Icon made by Freepik from www.flaticon.com
 
 ## License
 

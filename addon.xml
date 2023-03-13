@@ -14,11 +14,11 @@
     <extension point="xbmc.addon.metadata">
         <name>MediaChat</name>
         <summary>A Kodi addon that allows you to chat with ChatGPT API.</summary>
-        <description>MediaChat is a Kodi addon that allows you to chat with ChatGPT API. It lets you enter prompts and receive responses related to a movie.</description>
+        <description>MediaChat is a Kodi addon that allows you to chat with ChatGPT API. It lets you enter prompts and receive responses related to a movie or tv show.</description>
         <language>English</language>
         <license>MIT</license>
         <platform>all</platform>
-        <forum>https://forum.kodi.tv/showthread.php?tid=1</forum>
+        <forum>https://forum.kodi.tv/showthread.php?tid=TBD</forum>
         <website>https://github.com/kcook98765/script.mediachat</website>
         <icon>icon.png</icon>
         <stars>4</stars>
