@@ -1,0 +1,27 @@
+<addon id="script.mediachat" version="0.0.45" name="MediaChat" provider-name="kcook98765">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="resource.language.en_gb" version="1.0.0"/>
+    </requires>
+	<extension point="kodi.context.item">
+		<menu id="kodi.core.main">
+			<item library="default.py">
+				<label>MediaChat</label>
+				<visible>[String.IsEqual(ListItem.DBTYPE,movie) | String.IsEqual(ListItem.DBTYPE,tvshow)]</visible>
+			</item>
+		</menu>
+	</extension>
+    <extension point="xbmc.addon.metadata">
+        <name>MediaChat</name>
+        <summary>A Kodi addon that allows you to chat with ChatGPT API.</summary>
+        <description>MediaChat is a Kodi addon that allows you to chat with ChatGPT API. It lets you enter prompts and receive responses related to a movie.</description>
+        <language>English</language>
+        <license>MIT</license>
+        <platform>all</platform>
+        <forum>https://forum.kodi.tv/showthread.php?tid=1</forum>
+        <website>https://github.com/kcook98765/script.mediachat</website>
+        <icon>icon.png</icon>
+        <stars>4</stars>
+        <fanart>fanart.jpg</fanart>
+    </extension>
+</addon>

@@ -1,0 +1,76 @@
+# Kodi Media Center language file
+# Addon Name: MediaChat
+# Addon id: script.mediachat
+# Addon Provider: Kyle Cook
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi Addons\n"
+"Report-Msgid-Bugs-To: donotemail@nowhere.com\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kyle Cook\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#32000"
+msgid "MediaChat"
+msgstr ""
+
+msgctxt "#32001"
+msgid "Chat with MediaChat AI"
+msgstr ""
+
+msgctxt "#32002"
+msgid "MediaChat settings"
+msgstr ""
+
+msgctxt "#32003"
+msgid "API Key"
+msgstr ""
+
+msgctxt "#32004"
+msgid "Cache time (in hours)"
+msgstr ""
+
+msgctxt "#32005"
+msgid "Default: 1 hour"
+msgstr ""
+
+msgctxt "#32006"
+msgid "Enter your ChatGPT API Key"
+msgstr ""
+
+msgctxt "#32007"
+msgid "Max Tokens per request"
+msgstr ""
+
+msgctxt "#32008"
+msgid "General"
+msgstr ""
+
+msgctxt "#32009"
+msgid "API Settings"
+msgstr ""
+
+msgctxt "#32010"
+msgid "Adjust to limit how many tokens are allowed for each request"
+msgstr ""
+
+msgctxt "#32011"
+msgid "Max Tokens"
+msgstr ""
+
+msgctxt "#32012"
+msgid "Temperature"
+msgstr ""
+
+msgctxt "#32013"
+msgid "Set the temperature for each request, 0 makes responses more exacting"
+msgstr ""
+
+				
+				
+				
